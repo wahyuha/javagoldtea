@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - JavaGoldTea</title>
+    <meta name="description" content="Explore our premium Indonesian tea products. High-quality black tea and green tea sourced from Java's finest highlands.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2a6d3c',
+                        'primary-light': '#a3c9a8',
+                        accent: '#d4af37',
+                    },
+                    fontFamily: {
+                        'playfair': ['Playfair Display', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <a href="index.html" class="text-2xl font-playfair font-bold text-primary">
+                    Java<span class="text-accent">Gold</span>Tea
+                </a>
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="font-medium hover:text-primary transition">Home</a></li>
+                    <li><a href="about.html" class="font-medium hover:text-primary transition">About</a></li>
+                    <li><a href="products.html" class="font-medium hover:text-primary transition">Products</a></li>
+                    <li><a href="blog.html" class="font-medium hover:text-primary transition">Blog</a></li>
+                    <li><a href="contact.html" class="font-medium hover:text-primary transition">Contact</a></li>
+                </ul>
+                <button class="md:hidden text-2xl">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 pt-24 pb-4">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center text-sm text-gray-600">
+                <a href="index.html" class="hover:text-primary">Home</a>
+                <span class="mx-2">/</span>
+                <span class="text-primary">Products</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-5xl font-playfair font-bold text-primary mb-6">Our Premium Tea Collection</h1>
+                <p class="text-xl text-gray-600">Discover our range of high-quality Indonesian teas, carefully processed to preserve their authentic flavors and health benefits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Black Tea Product Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-80 overflow-hidden">
+                        <img src="https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/06/1.-Kandungan-Teh-Hitam.jpg" 
+                             alt="Black Tea" 
+                             class="w-full h-full object-cover transition duration-300 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center mb-2">
+                            <div class="flex text-accent">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="ml-2 text-sm text-gray-600">4.5/5</span>
+                        </div>
+                        <h3 class="text-2xl font-playfair font-bold text-primary mb-4">Black Tea</h3>
+                        <p class="text-gray-600 mb-6">Premium single-origin black tea from Java's highland plantations. Rich, full-bodied flavor with notes of malt and honey.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">OP Grade</span>
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">Orthodox</span>
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">Halal</span>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <a href="black-tea.html" class="bg-primary hover:bg-accent text-white text-center px-8 py-3 rounded transition duration-300">
+                                View Details
+                            </a>
+                            <a href="#request-quote" class="border-2 border-primary text-primary hover:bg-primary hover:text-white text-center px-8 py-3 rounded transition duration-300">
+                                Request Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Green Tea Product Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-80 overflow-hidden">
+                        <img src="https://asset.kompas.com/crops/4s36mP-Lm6XEYRTlJTZJmpcg-zE=/173x96:1327x865/1200x800/data/photo/2022/03/16/623214af859f3.jpg" 
+                             alt="Green Tea" 
+                             class="w-full h-full object-cover transition duration-300 hover:scale-110">
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center mb-2">
+                            <div class="flex text-accent">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="ml-2 text-sm text-gray-600">4.7/5</span>
+                        </div>
+                        <h3 class="text-2xl font-playfair font-bold text-primary mb-4">Green Tea</h3>
+                        <p class="text-gray-600 mb-6">Premium single-origin green tea from Java's highland plantations. Delicate, refreshing flavor with grassy notes and rich in antioxidants.</p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">Sencha</span>
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">Steamed</span>
+                            <span class="bg-primary-light text-primary px-3 py-1 rounded-full text-sm">Halal</span>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <a href="green-tea.html" class="bg-primary hover:bg-accent text-white text-center px-8 py-3 rounded transition duration-300">
+                                View Details
+                            </a>
+                            <a href="#request-quote" class="border-2 border-primary text-primary hover:bg-primary hover:text-white text-center px-8 py-3 rounded transition duration-300">
+                                Request Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Assistance Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-playfair font-bold text-primary mb-6">Need Help Choosing?</h2>
+                <p class="text-gray-600 mb-8">Our tea experts are here to help you find the perfect product for your needs.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <a href="https://wa.me/621234567890" target="_blank" class="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition duration-300">
+                        <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                    <a href="mailto:sales@javagoldtea.com" class="flex items-center justify-center bg-primary hover:bg-accent text-white px-6 py-3 rounded-lg transition duration-300">
+                        <i class="fas fa-envelope text-2xl mr-3"></i>
+                        <span>Email Sales Team</span>
+                    </a>
+                </div>
+                <p class="text-center text-gray-600 mt-4">Our team is available Monday to Friday, 9:00 AM - 5:00 PM (GMT+7)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <h3 class="text-xl font-playfair font-bold text-white mb-4">JavaGoldTea</h3>
+                    <p class="mb-4">Premium Indonesian tea for global markets. Harvested from Java's Finest Highlands.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-accent transition">FB</a>
+                        <a href="#" class="hover:text-accent transition">IG</a>
+                        <a href="#" class="hover:text-accent transition">TW</a>
+                        <a href="#" class="hover:text-accent transition">LI</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-playfair font-bold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-accent transition">About Us</a></li>
+                        <li><a href="products.html" class="hover:text-accent transition">Products</a></li>
+                        <li><a href="blog.html" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-playfair font-bold text-white mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="black-tea.html" class="hover:text-accent transition">Black Tea</a></li>
+                        <li><a href="green-tea.html" class="hover:text-accent transition">Green Tea</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-playfair font-bold text-white mb-4">Contact Us</h3>
+                    <div class="space-y-2">
+                        <p>JavaGoldTea Export Company</p>
+                        <p>Jl. Plantation Road No. 123</p>
+                        <p>Bandung, West Java, Indonesia</p>
+                        <p>Phone: +62 123 456 7890</p>
+                        <p>Email: info@javagoldtea.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p>&copy; 2025 JavaGoldTea. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('button').addEventListener('click', function() {
+            document.querySelector('ul').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 
